@@ -12,12 +12,14 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 header{
     background-color: black;
     color: white;
     text-align: center;
     padding: 50px 0px; 
+    font-family: var(--font_geral);
 }
 header h1{
     font-variant: small-caps;
@@ -62,4 +64,5 @@ footer{
     color: white;
     text-align: center;
     padding: 15px;
+    font-family: var(--font_geral);
 }
