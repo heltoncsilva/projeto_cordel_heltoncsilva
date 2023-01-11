@@ -46,18 +46,31 @@ section{
     font-weight: bolder;
     font-size: 1.3em;
 }
+section p{
+    padding: 1.5em;
+}
 section.normal p{
     padding-left: 10px;
 }
 section.imagem{
     background-color: darkgray;
     color: white;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 8px 8px 5px 0px #0000006b;
+    background-attachment: fixed;
 }
 section.imagem p{
-    background-color: rgba(0, 0, 0, 0.164);
+    background-color: rgba(0, 0, 0, 0.575);
     display: inline-block;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+section#img01{
+    background-image: url(../imagens/background001.jpg);
+}
+section#img02{
+    background-image: url(../imagens/background002.jpg);
 }
 footer{
     background-color: black;
